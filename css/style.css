@@ -1,0 +1,183 @@
+/*
+* {
+    box-sizing: border-box;
+}*/
+
+html, body {
+  width: 98%;
+  height: auto;
+  padding: 0;
+  margin-bottom :0;
+  margin-top: 0%
+}
+
+body {
+
+  background-color : slategray;
+  font-family : comic sans ms;
+  font-size : 110%;
+
+}
+
+table {
+  
+  width: 100%;
+  background-color: #5a98fc;
+}
+
+.container {
+  width: 100%;
+  max-width: auto;
+  margin: auto;
+}
+
+.history-sect::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+
+h2 {
+  display: block;
+  width: 100%;
+  background: #2d5089;
+}
+
+.name {
+  background-color: inherit;
+  padding-bottom: 2rem;
+}
+
+.name img {
+    
+    border-radius: 10%;
+}
+
+.name h1{
+  font-weight: 500px;
+  float: left;
+  margin-right: 10rem;
+  padding-right: 35%
+  text-align: center;
+  padding-left: 20%
+}
+
+.city {
+  background-color: #5a98fc;
+  padding: 2rem;
+  height: auto;
+}
+
+.city img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom:1rem;
+}
+
+.historic-place {
+  width: 100%;
+  padding: ;
+  width: 32%;
+  margin-right: 0.5rem;
+  float: left;
+  background: #5a98fc;
+  height: auto;
+  border: 20px;
+  border-color: blue;
+}
+
+}
+
+.historic-place img {
+  width: 98%;
+  max-width: 600px;
+}
+
+.tbl tr td {
+  border:  1px solid black;
+  width : 50%;
+  height : 30px;
+  border-collapse: separate;
+  margin:auto;
+}
+
+.tbl tr th{
+   border: 1px solid;
+   width : 640px;
+   height : 50px;
+   border-spacing: 0;
+   }
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
+
+/*making the pictures hover when the cursor is above them*/
+
+.historic-place img:hover {
+   transform: scale(1.2);
+   -webkit-transform-origin: center;
+
+}
+
+.city img:hover {
+   transform: scale(1.2);
+   -webkit-transform-origin: center;
+}
+
+.name img:hover {
+   transform: scale(1.2);
+   -webkit-transform-origin: center;
+
+}
+
+/*setting media queries*/
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: purple;
+        
+    }
+    .historic-place
+    {
+        display: block; 
+        float: none; 
+        width:100%;
+    }
+    
+    .name h1{
+        padding: 0;
+    }
+    
+    .city img {
+        width: ;
+        float: none;
+    }
+    .city {
+        float: none;
+    }
+    .name img {
+    display: block;
+    margin: 0 auto;
+    }
+    .name h1 {
+    display: block;
+    margin: 0 auto;
+}
+
+    
+    
+
+}
